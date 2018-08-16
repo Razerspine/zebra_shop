@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="212.5" x2="380" y1="213.5" x1="21" fill-opacity="null" stroke-opacity="null" stroke-width="45" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_10" y2="87.5" x2="206.75" y1="180.5" x1="80.25" fill-opacity="null" stroke-opacity="null" stroke-width="20" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_11" y2="87.5" x2="195.25" y1="180.5" x1="321.75" fill-opacity="null" stroke-opacity="null" stroke-width="20" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_16" y2="376.5" x2="95.25" y1="203.5" x1="40.75" fill-opacity="null" stroke-opacity="null" stroke-width="30" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_17" y2="376.5" x2="305.25" y1="202" x1="360.25" fill-opacity="null" stroke-opacity="null" stroke-width="30" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_18" y2="368.5" x2="320" y1="368" x1="80" fill-opacity="null" stroke-opacity="null" stroke-width="25" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="371.5" x2="192.75" y1="365" x1="192.75" fill-opacity="null" stroke-opacity="null" stroke-width="20" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_49" y2="362.5" x2="156.75" y1="197" x1="155.75" fill-opacity="null" stroke-opacity="null" stroke-width="35" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_50" y2="374.5" x2="244.25" y1="199" x1="243.25" fill-opacity="null" stroke-opacity="null" stroke-width="35" stroke="#000" fill="none"/>
+ </g>
+</svg>

@@ -752,7 +752,7 @@ body {
   width: 180px;
   height: 210px;
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 10px 0 10px;
   vertical-align: middle;
 }
 .other_content .preview_small .preview_container {
@@ -769,9 +769,6 @@ body {
   font-family: mulibold, Arial, sans-serif;
   text-decoration: none;
   color: #626262;
-}
-.other_content .preview_small:nth-child(5) {
-  margin: 0;
 }
 .footer {
   width: 100%;
@@ -801,6 +798,6 @@ body {
 }
 .footer .footer_social i {
   color: #ffffff;
-  margin-right: 20px;
+  margin: 0 10px 0 10px;
   font-size: 30px;
 }

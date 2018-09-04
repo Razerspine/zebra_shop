@@ -2,7 +2,9 @@ $(document).ready(function () {
 
     (function () {
 
-        $(".btn_next").click(function () {
+        var slider = $(".slider");
+
+        function play() {
 
             var slide = $(".slide");
             var currentImg = $(".active");
@@ -19,11 +21,23 @@ $(document).ready(function () {
             } else {
                 nextImg.addClass("active");
             }
+        }
 
+        var slideAutoPlay = setInterval(play, 3000);
+
+        slider.mouseenter(function () {
+            clearInterval(slideAutoPlay);
         });
 
-        $(".btn_prev").click(function () {
+        slider.mouseleave(function () {
+            slideAutoPlay = setInterval(play, 3000);
+        });
 
+        $(".btn_next").click(function () {
+            play();
+        });
+
+        function prev() {
             var slide = $(".slide");
             var currentImg = $(".slide.active");
             var currentIndex = currentImg.index();
@@ -31,6 +45,32 @@ $(document).ready(function () {
             var prevImg = slide.eq(prevIndex);
             currentImg.removeClass("active");
             prevImg.addClass("active");
+        }
+
+        $(".btn_prev").click(function () {
+            prev();
+        });
+
+        $(function() {
+
+            $(slider).swipe( {
+                swipeLeft:function() {
+                    clearInterval(slideAutoPlay);
+                    prev();
+                },
+                threshold:0
+            });
+        });
+
+        $(function() {
+
+            $(slider).swipe( {
+                swipeRight:function() {
+                    clearInterval(slideAutoPlay);
+                    play();
+                },
+                threshold:0
+            });
         });
     })();
 });

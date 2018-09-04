@@ -589,6 +589,7 @@ body {
     padding: 5px 0 0 15px;
     overflow: hidden;
     text-align: left;
+    margin: 0 10px 0 10px;
     img {
       position: absolute;
     }
@@ -608,7 +609,11 @@ body {
       line-height: 0.8;
     }
   }
-  .promo_detail:nth-child(1) {
+  .content-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .content-block_left .promo_detail:nth-child(1) {
     background-color: #58dbd3;
     img {
       .position_img;
@@ -621,7 +626,7 @@ body {
       margin-top: 0;
     }
   }
-  .promo_detail:nth-child(2) {
+  .content-block_left .promo_detail:nth-child(2) {
     background-color: #e4ce9a;
     img {
       .position_img;
@@ -636,7 +641,7 @@ body {
       line-height: 0.9;
     }
   }
-  .promo_detail:nth-child(3) {
+  .content-block_right .promo_detail:nth-child(1) {
     background-color: #ffa7ce;
     img {
       .position_img;
@@ -656,7 +661,7 @@ body {
       margin-top: 10px;
     }
   }
-  .promo_detail:nth-child(4) {
+  .content-block_right .promo_detail:nth-child(2) {
     background-color: #f2ca66;
     h3 {
       -webkit-transform: rotate(-180deg);
@@ -688,6 +693,11 @@ body {
       left: 0;
     }
   }
+}
+
+.content_block {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .content_categories {
